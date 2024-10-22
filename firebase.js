@@ -9,30 +9,6 @@ initializeApp({
 });
 
 
-// const db = getFirestore();
-
-// add
-
-// const docRef = db.collection('student').doc();
-
-// docRef.set({
-//   first: 'ccc',
-//   last: 'ddd',
-//   email: 'ccc.ddd@rutgers.edu'
-// }
-// );
-
-// // read all data
-
-// async function readAll() {
-//   const snapshot = await db.collection('student').get();
-//   snapshot.forEach((doc) => {
-//     console.log(doc.id, '=>', doc.data());
-//   });
-// }
-
-// readAll();
-
 const db = getFirestore();
 
 // Add a document to the 'student' collection
